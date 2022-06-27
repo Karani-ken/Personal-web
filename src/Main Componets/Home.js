@@ -8,9 +8,10 @@ function Home() {
     <div>
         <MenuBar/>
         <div className='Content-box'>
+            <p>Welcome to</p>
             <h2>Dynamic Web Services</h2>
                 <p>
-                    Get premium websites at a pocket friendly price with 
+                    Get premium websites at a pocket friendly price
                     with great discounts on hosting plans.
                 </p>
         
