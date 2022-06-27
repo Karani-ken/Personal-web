@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  width: 100%;
+  background: linear-gradient(rgb(46, 107, 177),rgb(214, 153, 153)),url(./images/logo2.webp);
+  height: 100vh;
+  padding: 0 10%;
+
+}
+.Nav-bar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 2px solid #fff;
+  border-radius: 10px;
+  position: relative;
+  z-index: 100;
+}
+
+.Nav-bar ul{
+  list-style: none;
+  display: inline-flex;
+ 
+}
+.Nav-bar ul li{
+  margin: 15px;
+  padding: 15px;
+  
+}
+.Nav-bar ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+}
+.Nav-bar ul li a:hover{
+  color:rgb(11, 243, 23)
+}
+
+.Content-box{
+  margin-top: 130px;
+  max-width: 600px;
+}
+.Content-box h2{
+  font-size: 45px;
+  margin-bottom: 20px;
+  color:#000;
+}
+.Content-box a{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: rgb(12, 115, 199);
+  padding: 10px 30px;
+  font-size: 18px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.Content-box a:hover{
+  background: rgb(175, 95, 165);
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  
+}
+.image-box{
+  background: #d9e0ff;
+  position: absolute;
+  top: 0;
+  right: 12%;
+  z-index: 1;
+}
+.image-box img{
+  display: block;
+  padding-top: 100px;
+  width: 410px;
+  margin-bottom: -205px;
+  
+
+}
